@@ -158,6 +158,19 @@ footer> :first-child {
     font-size: 0.8rem;
 }
 
+.wave{
+    margin-bottom: -1rem;
+    color: var(--lightgrey);
+    padding-bottom: 0rem;
+}
+
+.bottomwave{
+    transform: rotateX(180deg);
+    color:var(--lightgrey);
+    padding-top: 0rem;
+    margin-top: -7rem;
+}
+
 .headertext {
     padding-top: 5.5rem;
     display: block;
