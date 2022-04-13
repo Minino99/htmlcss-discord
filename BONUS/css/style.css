@@ -198,9 +198,21 @@ footer> :first-child {
     margin-right: 1rem;
 }
 
-.simplecol div:first-child {
+.simplecol li{
+    list-style: none;
+}
+
+.simplecol li:first-child {
     color: var(--lavanda);
     font-weight: 700;
+}
+
+.simplecol a{
+    color:white;
+}
+
+.simplecol a:hover{
+    text-decoration: underline;
 }
 
 .simplecol {
